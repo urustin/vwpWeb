@@ -1,0 +1,30 @@
+.carousel .slide {
+    background: none !important;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .legend {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    color: #ffffff;
+  }
+  
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .carousel img {
+      max-height: 50vh;
+    }
+  }
+  
+  /* 반응형 디자인: 모바일 */
+  @media screen and (max-width: 480px) {
+    .carousel img {
+      max-height: 40vh;
+    }
+  }
+  

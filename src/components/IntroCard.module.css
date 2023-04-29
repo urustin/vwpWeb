@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cardImage {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .cardImage img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cardContent {
+    flex-grow: 1;
+  }
+  
+  .cardContent h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .cardContent p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column;
+    }
+  
+    .cardImage {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* 반응형 디자인: 모바일 */
+  @media screen and (max-width: 480px) {
+    .cardContent h2 {
+      font-size: 1rem;
+    }
+  
+    .cardContent p {
+      font-size: 0.8rem;
+    }
+  }
+  

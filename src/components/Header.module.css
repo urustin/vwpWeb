@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuItem {
+    margin-left: 1.5rem;
+  }
+  
+  .menuItem a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.2s;
+  }
+  
+  .menuItem a:hover {
+    color: #0070f3;
+  }
+  
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .nav {
+      margin-top: 1rem;
+    }
+  }
+  
+  /* 반응형 디자인: 모바일 */
+  @media screen and (max-width: 480px) {
+    .header {
+      padding: 1rem;
+    }
+  
+    .nav {
+      flex-direction: column;
+    }
+  
+    .menu {
+      flex-direction: column;
+    }
+  
+    .menuItem {
+      margin-left: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  

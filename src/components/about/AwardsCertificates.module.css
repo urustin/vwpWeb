@@ -1,0 +1,47 @@
+.awardsCertificates {
+    padding: 2rem 0;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .awardsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .award {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .awardImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .awardName {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .award {
+      width: 200px;
+    }
+  
+    .awardName {
+      font-size: 1rem;
+    }
+  }
+  

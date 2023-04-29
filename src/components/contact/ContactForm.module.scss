@@ -1,0 +1,70 @@
+.contactForm {
+    padding: 2rem 0;
+  
+    .title {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .formGroup {
+      margin-bottom: 1.5rem;
+    }
+  
+    label {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    .submitButton {
+      background-color: #333;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #555;
+      }
+    }
+  
+    .submittedMessage {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+  
+    // Responsive Design
+    @media screen and (max-width: 768px) {
+      .title {
+        font-size: 1.5rem;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      label {
+        font-size: 1rem;
+      }
+  
+      input,
+      textarea,
+      select {
+        font-size: 0.9rem;
+      }
+  
+      .submitButton {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  

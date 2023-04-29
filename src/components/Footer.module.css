@@ -1,0 +1,44 @@
+.footer {
+    padding: 2rem 0;
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footerMenu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .footerMenu li {
+    margin: 0 1rem;
+  }
+  
+  .footerMenu a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footerMenu a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .footerMenu ul {
+      flex-direction: column;
+    }
+  
+    .footerMenu li {
+      margin: 0.5rem 0;
+    }
+  }
+  

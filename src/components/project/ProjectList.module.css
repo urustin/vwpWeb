@@ -1,0 +1,62 @@
+.projectList {
+    padding: 2rem 0;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  
+  .project {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .projectTitle {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .category {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .project {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .projectTitle {
+      font-size: 1.1rem;
+    }
+  }
+  
