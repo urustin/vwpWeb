@@ -9,7 +9,7 @@ const LocationPage = () => {
     <div>
       <Header />
       <Location />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </div>
   );

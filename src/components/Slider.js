@@ -14,15 +14,15 @@ const Slider = () => {
         showStatus={false}
       >
         <div>
-          <img className={styles.carouselImage} src="/images/slide1.jpeg" alt="슬라이드 이미지 1" />
+          <img className={styles.carouselImage} src="/images/slide1.jpg" alt="슬라이드 이미지 1" />
           <p className={styles.legend}>슬라이드 제목 1</p>
         </div>
         <div>
-          <img className={styles.carouselImage} src="/images/slide2.png" alt="슬라이드 이미지 2" />
+          <img className={styles.carouselImage} src="/images/slide2.jpg" alt="슬라이드 이미지 2" />
           <p className={styles.legend}>슬라이드 제목 2</p>
         </div>
         <div>
-          <img className={styles.carouselImage} src="/images/slide3.png" alt="슬라이드 이미지 3" />
+          <img className={styles.carouselImage} src="/images/slide3.jpg" alt="슬라이드 이미지 3" />
           <p className={styles.legend}>슬라이드 제목 3</p>
         </div>
       </Carousel>

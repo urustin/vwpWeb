@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './AwardsCertificates.module.css';
-import awardImage1 from '../../../public/images/award1.png'; // 수상내역 및 인증서 이미지 파일 import
-import awardImage2 from '../../../public/images/award2.png'; // 수상내역 및 인증서 이미지 파일 import
+import awardImage1 from '../../../public/images/award1.jpg'; // 수상내역 및 인증서 이미지 파일 import
+import awardImage2 from '../../../public/images/award2.jpg'; // 수상내역 및 인증서 이미지 파일 import
 
 const AwardsCertificates = () => {
   const awards = [

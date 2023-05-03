@@ -7,7 +7,7 @@ const OrganizationChart = () => {
     <section className={styles.organizationChart}>
       <h2 className={styles.title}>Organization Chart</h2>
       <div className={styles.imageContainer}>
-        <img src="/images/org-chart.png" alt="Organization Chart" className={styles.orgChartImage} />
+        <img src="/images/org-chart.jpg" alt="Organization Chart" className={styles.orgChartImage} />
       </div>
     </section>
   );
