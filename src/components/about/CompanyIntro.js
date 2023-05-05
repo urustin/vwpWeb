@@ -6,7 +6,7 @@ const CompanyIntro = () => {
     <section className={styles.companyIntro}>
       <h2 className={styles.title}>Company Introduction</h2>
       <p className={styles.content}>
-        Your company introduction content goes here...
+        aaaaaaaaaa
       </p>
     </section>
   );
