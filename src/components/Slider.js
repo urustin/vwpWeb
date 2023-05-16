@@ -1,32 +1,43 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import styles from './Slider.module.css'; // 반응형 스타일 적용
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Slider = () => {
+  const imageStyle = {
+    maxHeight: "600px",
+    objectFit: "cover",
+    objectPosition: "center"
+  };
+  const nextIcon = <span style={{ color: 'red', fontSize: '2em' }}></span>;
+  const prevIcon = <span style={{ color: 'blue', fontSize: '2em' }}>P</span>;
+
   return (
-    <div>
-      <Carousel
-        autoPlay
-        infiniteLoop
-        interval={2000}
-        showThumbs={false}
-        showStatus={false}
-      >
-        <div>
-          <img className={styles.carouselImage} src="/images/slide1.jpg" alt="슬라이드 이미지 1" />
-          <p className={styles.legend}>슬라이드 제목 1</p>
-        </div>
-        <div>
-          <img className={styles.carouselImage} src="/images/slide2.jpg" alt="슬라이드 이미지 2" />
-          <p className={styles.legend}>슬라이드 제목 2</p>
-        </div>
-        <div>
-          <img className={styles.carouselImage} src="/images/slide3.jpg" alt="슬라이드 이미지 3" />
-          <p className={styles.legend}>슬라이드 제목 3</p>
-        </div>
-      </Carousel>
-    </div>
+    <Carousel nextIcon={<span />} prevIcon={<span />}>
+      <Carousel.Item>
+        <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/slide1.jpg"
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/slide2.jpg"
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/slide3.jpg"
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
   );
 };
 

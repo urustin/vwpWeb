@@ -3,12 +3,7 @@ import styles from './CompanyVision.module.css';
 
 const CompanyVision = () => {
   return (
-    <section className={styles.companyVision}>
-      <h2 className={styles.title}>Company Vision</h2>
-      <p className={styles.content}>
-        Your company vision content goes here...
-      </p>
-    </section>
+    <></>
   );
 };
 

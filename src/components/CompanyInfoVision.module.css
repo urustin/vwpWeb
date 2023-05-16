@@ -1,0 +1,61 @@
+.companyIntro {
+    padding: 2rem 0;
+    background-color: #f5f5f5;
+  }
+  
+
+/*  -ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+  .infoItem {
+
+    /* right로 모디파이함 */
+    /* flex-basis: 30%; */
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 400px;
+    /* padding: 1rem; */
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 40px rgba(253, 215, 215, 0.2);
+  }
+  .infoBox{
+    position: relative;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 20px;
+  }
+  
+  .infoItem h2 {
+    color:#0c76b7;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+  }
+  
+  .infoItem p {
+
+    font-size: 1rem;
+    margin: 0;
+  }
+  .infoItem img{
+
+    z-index: 0;
+    width: 60%;
+    margin-left: 0;
+    height: 400px;
+    object-fit: cover;
+  }
+
+
+
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .content {
+      font-size: 1rem;
+    }
+  }
+  

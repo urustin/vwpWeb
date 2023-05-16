@@ -8,17 +8,23 @@
   }
   
   .cardImage {
+    display: flex; 
+    /* align-items: center; */
     flex-shrink: 0;
     width: 100px;
     height: 100px;
     margin-right: 1rem;
     overflow: hidden;
     border-radius: 50%;
+
+    /* object-position: center; */
   }
   
   .cardImage img {
     width: 100%;
     height: auto;
+    object-fit:cover;
+    /* vertical-align: middle; */
   }
   
   .cardContent {

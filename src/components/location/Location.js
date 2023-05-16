@@ -1,38 +1,20 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './Location.module.css';
 
 const Location = () => {
-  useEffect(() => {
-    loadGoogleMapsApi();
-  }, []);
-
-  const loadGoogleMapsApi = () => {
-    const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBd5zKLALTS4yWtC8T3ocUUBgbe0pG32_4`;
-    script.async = true;
-    script.defer = true;
-    script.onload = initMap;
-    document.body.appendChild(script);
-  };
-
-  const initMap = () => {
-    const map = new window.google.maps.Map(document.getElementById('map'), {
-      center: { lat: 37.5665, lng: 126.9780 },
-      zoom: 14,
-    });
-
-    const marker = new window.google.maps.Marker({
-      position: { lat: 37.5665, lng: 126.9780 },
-      map: map,
-      title: 'Company Location',
-    });
-  };
-
   return (
-    <div className={styles.location}>
-      <h1>Company Location</h1>
-      <div id="map" className={styles.map}></div>
-    </div>
+    <>
+      <div className={styles.location}>
+        <h1>Company Location</h1>
+        {/* <div id="map" className={styles.map}></div> */}
+        <div style={{overflow:"hidden",maxWidth:"100%",width:"100%",height:"800px"}}>
+        <div id="g-mapdisplay" style={{height:"100%", width:"100%", maxWidth:"100%"}}>
+            <iframe style={{height:"100%", width:"100%", border:"0"}} frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=38-44+Dohertys+Rd,+Laverton+North+VIC,+Australia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+          </div>
+          <a className="code-for-google-map" href="https://kbj9qpmy.com/bp" id="enable-map-info">Broadband Providers</a>
+        </div>
+      </div>
+    </>
   );
 };
 

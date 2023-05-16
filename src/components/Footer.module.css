@@ -1,7 +1,7 @@
 .footer {
     padding: 2rem 0;
-    background-color: #222222;
-    color: #ffffff;
+    background-color: linear-gradient(0deg, rgb(227, 255, 228) 0%, rgba(45,191,253,0.8) 100%);
+    /* color: #ffffff; */
     text-align: center;
   }
   
@@ -18,7 +18,7 @@
   }
   
   .footerMenu a {
-    color: #ffffff;
+    color: gray;
     text-decoration: none;
   }
   

@@ -6,7 +6,8 @@ import IntroCard from '../components/IntroCard';
 import CompanyInfoSection from '../components/CompanyInfoSection';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
-
+import styles from "../styles/Home.module.css";
+//bootstrap for slider
 const MainPage = () => {
   return (
     <>
@@ -15,11 +16,13 @@ const MainPage = () => {
       </Head>
       <Header />
       
+      <div className="sliderBox" style={styles.slider}>
+        <Slider />
+      </div>
       
-      <Slider />
-      <IntroCard />
+      {/* <IntroCard /> */}
       <CompanyInfoSection />
-      <SocialMedia />
+      {/* <SocialMedia /> */}
       <Footer />
     </>
   );
