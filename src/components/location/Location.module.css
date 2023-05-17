@@ -8,7 +8,7 @@
     margin: 1rem auto;
   }
   
-  /* #g-mapdisplay img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;} */
+  /* #g-mapdisplay img */
 
   /* 반응형 디자인: 태블릿 */
   @media screen and (max-width: 768px) {
