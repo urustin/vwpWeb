@@ -1,0 +1,101 @@
+.mainBox{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 50px;;
+}
+.titleBox{
+    width :40%;
+    margin: auto;
+
+    
+}
+.h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+.h4{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.p{
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+
+
+.iconShell{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:30px;
+}
+
+.iconBox{
+    width: 33%;
+    /* background-color: aqua; */
+
+}
+.iconRound{
+    background-color:#4893c1;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 100%;
+    transition: 0.5s;
+    color: white;
+}
+.iconRound:hover{
+    
+    background-color: #0c76b7;
+    /* color:aqua; */
+}
+
+.horizontalLine1{
+    width :30%;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+
+.horizontalLine2{
+    width :100px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+.aboutUs{
+
+    width: 140px;
+    /* height: 40px; */
+    padding: 10px 0 ;
+    margin: auto;
+    margin-top: 15px;
+    color: #ddd;
+    background-color: gray;
+    transition: 0.7s;
+    
+}
+.aboutUs:focus{
+    
+}
+.aboutUs:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+
+/* 반응형 */
+
+@media screen and (max-width: 768px) {
+    .titleBox{
+        width :80%;
+    }
+    .iconShell{
+        display: block;
+    }
+    .iconBox{
+        width: 100%;
+    }
+  }
+  
