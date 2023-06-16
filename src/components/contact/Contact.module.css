@@ -27,8 +27,10 @@
     
 }
 .companyName{
+    font-size: 1.4rem;
     font-weight: 300;
     margin-left:20px;
+
 }
 .detailBox{
     /* background-color: antiquewhite; */
@@ -58,4 +60,20 @@
     font-size: 1rem;
     font-weight: 300;
 }
-
+@media screen and (max-width: 768px) {
+    .contact {
+        display: block;
+    }
+    .contactBox{
+        width: 100%;
+    }
+    .detailBox{
+        column-count: 1;
+        width: 85%;
+        margin: 0 auto;
+        margin-top:50px;
+        /* background-color: aqua; */
+        
+    }
+  }
+  

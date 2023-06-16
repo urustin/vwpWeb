@@ -11,6 +11,7 @@ import Main_02 from '@/components/main/Main_02';
 import Main_03 from '@/components/main/Main_03'; 
 import Main_04 from '@/components/main/Main_04'; 
 
+import Contact from '@/components/contact/Contact';
 
 //bootstrap for slider
 const MainPage = () => {
@@ -29,6 +30,7 @@ const MainPage = () => {
       {/* <IntroCard /> */}
       
       {/* <SocialMedia /> */}
+      <Contact/>
       <Footer />
     </>
   );
