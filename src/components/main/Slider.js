@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import styles from "./Slider.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const Slider = () => {
   const imageStyle = {
@@ -8,11 +11,44 @@ const Slider = () => {
     objectFit: "cover",
     objectPosition: "center"
   };
-  const nextIcon = <span style={{ color: 'red', fontSize: '2em' }}></span>;
-  const prevIcon = <span style={{ color: 'blue', fontSize: '2em' }}>P</span>;
+  const titleAnimation = ()=>{
+    document.querySelector("#titleAni").classList.add("none");
+    
+    if(window.scrollY>50){
+      document.querySelector("#titleAni").classList.remove("none");
+      // console.log("aaaa");
+    }else{
+      document.querySelector("#titleAni").classList.add("none");
+      // console.log(window.scrollY);
+    }
+
+  }
+  useEffect(() => {
+    titleAnimation();
+    window.addEventListener('scroll', titleAnimation);
+    return () => window.removeEventListener('scroll', titleAnimation);
+  }, []);
 
   return (
-    <Carousel nextIcon={<span />} prevIcon={<span />}>
+    <>
+    <div className={styles.textBox} id='titleAni'>
+        <h1 className={styles.h1}>VWP</h1>
+        <h4 className={styles.h4}>Victoria Wool Processors</h4>
+    </div>
+    <Carousel 
+    className={styles.carousel} 
+    interval={3000} 
+    nextIcon={null} 
+    prevIcon={null}
+    nextLabel={""}
+    prevLabel={""}
+    indicators={""}
+    fade={true}
+    touch={true}
+    wrap={true}
+    >
+      
+      
       <Carousel.Item>
         <img
           style={imageStyle}
@@ -38,6 +74,7 @@ const Slider = () => {
         />
       </Carousel.Item>
     </Carousel>
+    </>
   );
 };
 

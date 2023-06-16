@@ -5,3 +5,11 @@ body {
     background: rgb(147,231,147);
     background: white;
   }
+
+#titleAni.none{
+  
+  /* background-color: rgba(20,20,20,0.2); */
+  margin-top:40px;
+  opacity: 1;
+} 
+
