@@ -61,7 +61,39 @@ let data ={
             title:"회사문화",
             content : "The VWP team combines experienced wool buyers, wool processing technicians, wool traders, international wool agents and shipping personnel to guarantee that our customers get the wool they require at the right price to the right specifications and on time."
         }
-    ]
+    ],
+    projects:{
+        projectWhat:{
+            title:"What We Daao",
+            text:"Victoria Wool has evolved from not just a raw short wool processor but can also offer a full service greasy wool supply for both combing and carding types. With strong representation across all Australian selling centres and links to a diverse private buying network we are able to source wool that suits your needs, always at a competitive price. Developing mutually beneficial relationships with customers who demand a comprehensive and dependable service has been central to building our already strong customer basis.",
+            imgSrc:"/images/slide2.jpg",
+        },
+        projectTabs:[
+            {
+                id:"carbon",
+                title:"Carbonised",
+                content : "",
+                imgs : "",
+            },
+            {
+                id:0,
+                title:"회사소개",
+                content : "The Wool Experience\nVictoria Wool Processors (VWP) experience and commitment to the wool industry is what makes the difference.\nNow Australia’s largest domestic wool processor, we pride ourselves on our longevity but more importantly our dedication to processing Australian wool in Australia long term. This is our commitment to the Australian Wool Industry."
+            },
+            {
+                id:0,
+                title:"회사소개",
+                content : "The Wool Experience\nVictoria Wool Processors (VWP) experience and commitment to the wool industry is what makes the difference.\nNow Australia’s largest domestic wool processor, we pride ourselves on our longevity but more importantly our dedication to processing Australian wool in Australia long term. This is our commitment to the Australian Wool Industry."
+            },
+        ],
+        projectCarbon:{
+            imgSrc:"/images/slide2.jpg"
+        },
+        projectGreasy:{
+            imgSrc:"/images/slide2.jpg"
+        }
+    }
+
 
 }
 

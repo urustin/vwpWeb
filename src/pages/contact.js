@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
-import ContactForm from '../components/contact/ContactForm';
+import Contact from '../components/contact/Contact';
+import Location from '../components/location/Location';
 import Footer from '../components/Footer';
 
 const ContactPage = () => {
@@ -14,7 +15,8 @@ const ContactPage = () => {
   return (
     <div>
       <Header />
-      <ContactForm onSubmit={handleSubmit} submitted={submitted} />
+      <Contact />
+      <Location />
       <Footer />
     </div>
   );

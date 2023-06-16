@@ -27,7 +27,7 @@
 
 .iconShell{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top:30px;
 }
@@ -45,7 +45,7 @@
     padding-top: 20px;
     border-radius: 100%;
     transition: 0.5s;
-    color: white;
+    
 }
 .iconRound:hover{
     
@@ -76,9 +76,7 @@
     transition: 0.7s;
     
 }
-.aboutUs:focus{
-    
-}
+
 .aboutUs:hover{
     text-decoration: none;
     opacity: 0.6;

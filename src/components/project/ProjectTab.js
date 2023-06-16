@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import styles from './ProjectTab.module.css';
+import data from '../textData';
+import ProjectGreasy from './ProjectGreasy';
+import ProjectCarbon from './ProjectCarbon';
 
 const ProjectTab = () => {
-  const [activeTab, setActiveTab] = useState('architecture');
+  const [activeTab, setActiveTab] = useState('carbon');
 
   const categories = [
-    { id: 'architecture', name: '건축물 분야' },
-    { id: 'transportation', name: '교통' },
-    { id: 'environment', name: '환경' },
+    { id: 'carbon', name: 'Carbonised Wool' },
+    { id: 'greasy', name: 'Greasy Wool' },
+    // { id: 'environment', name: '3' },
     // ... 추가적인 프로젝트 카테고리
   ];
 
@@ -26,8 +29,8 @@ const ProjectTab = () => {
         ))}
       </div>
       <div className={styles.content}>
-        {activeTab === 'architecture' && <p>Architecture projects content...</p>}
-        {activeTab === 'transportation' && <p>Transportation projects content...</p>}
+        {activeTab === 'carbon' && <ProjectCarbon/>}
+        {activeTab === 'greasy' && <ProjectGreasy/>}
         {activeTab === 'environment' && <p>Environment projects content...</p>}
         {/* ... 추가적인 프로젝트 카테고리 내용 */}
       </div>

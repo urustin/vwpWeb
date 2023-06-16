@@ -6,7 +6,7 @@ const CompanyInfoIntro = () => {
   return (
     <section className={styles.companyIntro}>
       <div className={styles.infoItem}>
-        <h2>사업분야</h2>
+        <h2>Business Field</h2>
         <p>{data.company_about[0].content}</p>
         <img src='/images/companyInfo/image01.jpg'></img>
       </div>

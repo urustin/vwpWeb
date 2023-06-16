@@ -21,8 +21,9 @@
   }
   .infoBox{
     position: relative;
-    width: 30%;
+    width: 40%;
     margin-left: 3%;
+    margin-right: 16%;
     margin-top: 20px;
   }
   
@@ -48,14 +49,21 @@
 
 
 
-  /* 반응형 디자인: 태블릿 */
-  @media screen and (max-width: 768px) {
-    .infoItem h2 {
-      font-size: 1.2rem;
-    }
-  
-    .infoItem p {
-      font-size: 0.7rem;
-    }
+/* 반응형 디자인: 태블릿 */
+@media screen and (max-width: 768px) {
+  .infoBox{
+    margin-left: 5%;
+    width:45%;
+    margin-right: 5%;
   }
-  
+  .infoItem h2 {
+    font-size: 1.2rem;
+  }
+
+  .infoItem p {
+    font-size: 0.7rem;
+  }
+  .infoItem img{
+    width: 50%;
+  }
+}

@@ -5,7 +5,7 @@ const Location = () => {
   return (
     <>
       <div className={styles.location}>
-        <h1>Company Location</h1>
+        <h1 className={styles.h1}>Company Location</h1>
         {/* <div id="map" className={styles.map}></div> */}
         <div style={{overflow:"hidden",maxWidth:"100%",width:"100%",height:"800px"}}>
         <div id="g-mapdisplay" style={{height:"100%", width:"100%", maxWidth:"100%"}}>

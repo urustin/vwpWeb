@@ -10,10 +10,9 @@ const Footer = () => {
           <li><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
           <li><a href="/contact">Contact</a></li>
-          <li><a href="/policy">Policy</a></li>
         </ul>
       </nav>
-      <p className={styles.copyright}>© {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+      <p className={styles.copyright}>© {new Date().getFullYear()} VWP. All rights reserved.</p>
     </footer>
   );
 };

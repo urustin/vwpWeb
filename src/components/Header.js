@@ -51,28 +51,22 @@ const Header = () => {
         <ul className={styles.menu}>
           <li className={styles.menuItem}>
             <Link href="/">
-                <span>home</span>
+                <span>Home</span>
             </Link>
           </li>
           <li className={styles.menuItem}>
             <Link href="/about">
-                <span>about</span>
+                <span>About</span>
             </Link>
           </li>
           <li className={styles.menuItem}>
             <Link href="/projects">
-            <span>projects</span>
-            </Link>
-          </li>
-          <li className={styles.menuItem}>
-            <Link href="/location">
-            <span>location</span>
-
+            <span>What We Do</span>
             </Link>
           </li>
           <li className={styles.menuItem}>
             <Link href="/contact">
-            <span>contact</span>
+            <span>Contact</span>
             </Link>
           </li>
         </ul>

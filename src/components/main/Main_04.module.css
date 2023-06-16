@@ -1,0 +1,103 @@
+/* TitleBox */
+
+.title{
+    /* background-color: aqua; */
+    margin-top: 60px;
+    text-align: center;
+}
+.horizontalLine1{
+    width :15%;
+    margin: 0 auto;
+    margin-top:40px;
+    border-bottom: 1px solid gray;
+}
+.p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:20px;
+    text-align: center;
+}
+
+/* ItemList */
+.projectItem{
+    min-width: 300px;
+    width: 40%;
+    height: 400px;
+
+    background-color: lightblue;
+    transition: 0.4s;
+    margin: 4px;
+}
+.projectItem:hover{
+    background-color: rgba(20, 20, 20,0.2);
+}
+.projectBox{
+    min-width:40%;
+    max-width:80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:70px;
+    
+}
+.projectTag{
+    color: rgba(20, 20, 20,0.2);;
+    opacity: 0;
+    transition: 0.3s;
+}
+.projectItem:hover .projectTag{
+    color: #eee;
+    opacity: 0.8;
+    
+}
+.projectName{
+    text-align: center;
+    margin-top: 270px;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.projectCategory{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.4rem;
+    /* margin-right: 80px; */
+}
+
+/* Link */
+
+.linkAllProject{
+    
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #333;
+    transition: 0.2s;
+}
+.linkAllProject:hover{
+    color:gray;
+    opacity: 0.7;
+}
+
+
+
+  /* 반응형 디자인: 태블릿 */
+  @media screen and (max-width: 768px) {
+    .projectBox{
+        width:80%;
+    }
+    .p{
+        width:80%;
+    }
+    .projectItem{
+        height: 200px;
+    }
+    .projectName{
+        margin-top: 110px;
+    }
+
+
+  }
+  
