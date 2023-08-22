@@ -18,7 +18,7 @@ const Contact = () => {
           <h5>
           38 – 44 Dohertys Road,
           <br/>
-          Laverton North, Vic. 3026
+          Laverton North, VIC. 3026
           </h5>
         </div>
         <div className={styles.postBox}>
@@ -26,7 +26,7 @@ const Contact = () => {
           <h5>
           P.O Box 430 Altona North
           <br/>
-          Victoria, Australia 3025
+          VIC, Australia 3025
           </h5>
         </div>
         <div className={styles.contactBox}>
@@ -39,7 +39,7 @@ const Contact = () => {
           sales@vwp.com.au
           </h5>
         </div>
-        <div className={styles.headBox}>
+        {/* <div className={styles.headBox}>
           <h4>
           Mr David Ritchie
           <br/>
@@ -48,7 +48,7 @@ const Contact = () => {
           <h5>
           davidr@vwp.com.au
           </h5>
-        </div>
+        </div> */}
       </div>
       
       

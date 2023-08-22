@@ -11,30 +11,31 @@ const Slider = () => {
     objectFit: "cover",
     objectPosition: "center"
   };
-  const titleAnimation = ()=>{
-    document.querySelector("#titleAni").classList.add("none");
+  // const titleAnimation = ()=>{
+  //   document.querySelector("#titleAni").classList.add("none");
     
-    if(window.scrollY>50){
-      document.querySelector("#titleAni").classList.remove("none");
-      // console.log("aaaa");
-    }else{
-      document.querySelector("#titleAni").classList.add("none");
-      // console.log(window.scrollY);
-    }
+  //   if(window.scrollY>50){
+  //     document.querySelector("#titleAni").classList.remove("none");
+  //     // console.log("aaaa");
+  //   }else{
+  //     document.querySelector("#titleAni").classList.add("none");
+  //     // console.log(window.scrollY);
+  //   }
+  // }
 
-  }
+
   useEffect(() => {
-    titleAnimation();
-    window.addEventListener('scroll', titleAnimation);
-    return () => window.removeEventListener('scroll', titleAnimation);
+    // // titleAnimation();
+    // window.addEventListener('scroll', titleAnimation);
+    // return () => window.removeEventListener('scroll', titleAnimation);
   }, []);
 
   return (
     <>
-    <div className={styles.textBox} id='titleAni'>
+    {/* <div className={styles.textBox} id='titleAni'>
         <h1 className={styles.h1}>VWP</h1>
         <h4 className={styles.h4}>Victoria Wool Processors</h4>
-    </div>
+    </div> */}
     <Carousel 
     className={styles.carousel} 
     interval={3000} 

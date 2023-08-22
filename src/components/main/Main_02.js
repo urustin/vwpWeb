@@ -60,14 +60,14 @@ const Main_02 = () => {
     <>
     <div className={styles.mainBox}>
         <TitleBox title={data.titleBox.title} text={data.titleBox.text}/>
-        <div className={styles.iconShell}>
+        {/* <div className={styles.iconShell}>
             {
                 data.iconBoxes.map((item,index) => {
                     return <IconBox title={item.title} text={item.text} url={item.url} key={index} />;
                 })
             }
         </div>
-        <AboutUs/>
+        <AboutUs/> */}
     </div>  
     </>
   );

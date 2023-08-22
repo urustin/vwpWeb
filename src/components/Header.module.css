@@ -4,13 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     background-color: #ffffff;
     /* box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.1); */
   }
   
   .logo img {
-    height: 50px;
+    height: 110px;
     /* margin-left:300px; */
   }
   
@@ -31,11 +31,15 @@
   .menuItem {
     margin-left: 1.5rem;
   }
+  .menuItem span{
+    font-size: 1.15rem;
+  }
   
   .menuItem a {
     text-decoration: none;
     color: #333333;
     transition: color 0.2s;
+
   }
   
   .menuItem a:hover {
@@ -63,7 +67,9 @@
   /* 반응형 디자인: 모바일 */
   @media screen and (max-width: 480px) {
     .header {
-      padding: 1rem;
+      /* padding: 1rem; */
+      margin: -0.7rem 0 -0.5rem 0;
+      /* padding-top: ; */
       display: flex;
       flex-wrap:wrap;
     }

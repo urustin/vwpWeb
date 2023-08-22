@@ -8,6 +8,9 @@ import CompanyVision from '../components/about/CompanyVision';
 import OrganizationChart from '../components/about/OrganizationChart';
 import AwardsCertificates from '../components/about/AwardsCertificates';
 import Footer from '../components/Footer';
+import AboutWhat from '@/components/about/AboutWhat';
+import AboutPara from '@/components/about/AboutPara';
+
 
 const About = () => {
   return (
@@ -16,12 +19,14 @@ const About = () => {
         <title>About | Your Company Name</title>
       </Head>
       <Header />
-      <CompanyIntro />
-      <CompanyInfoSection />
+      <AboutWhat />
+      <AboutPara />
+      {/* <CompanyIntro /> */}
+      {/* <CompanyInfoSection />
       <CompanyVision />
 
       <OrganizationChart />
-      <AwardsCertificates />
+      <AwardsCertificates /> */}
       <Footer />
     </>
   );

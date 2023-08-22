@@ -10,8 +10,9 @@ import styles from "../styles/Home.module.css";
 import Main_02 from '@/components/main/Main_02'; 
 import Main_03 from '@/components/main/Main_03'; 
 import Main_04 from '@/components/main/Main_04'; 
-
 import Contact from '@/components/contact/Contact';
+
+import Main_05 from '@/components/main/Main_05';
 
 //bootstrap for slider
 const MainPage = () => {
@@ -25,12 +26,13 @@ const MainPage = () => {
       
       <Slider />
       <Main_02/>
-      <Main_03/>
-      <Main_04/>
+      {/* <Main_03/> */}
+      {/* <Main_04/> */}
       {/* <IntroCard /> */}
       
       {/* <SocialMedia /> */}
-      <Contact/>
+      {/* <Contact/> */}
+      <Main_05/>
       <Footer />
     </>
   );

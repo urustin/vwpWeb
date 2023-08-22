@@ -1,0 +1,12 @@
+.pBox{
+    font-size: 20px;
+    margin: 0% 27% 140px 27%;
+}
+@media screen and (max-width: 768px) {
+
+
+    .pBox{
+        margin: 0 5% 100px 5%;
+    }
+
+}
