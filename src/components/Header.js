@@ -45,7 +45,7 @@ const Header = () => {
         </Link>
       </div>
       <div className={styles.headerMenuBtn} onClick={toggleVisibility}>
-        btn
+        <img src='/icons/menu2.png'></img>
       </div>
       <nav className={`${styles.nav} ${isHiddenAni ? styles.removeAnimation: ""} ${isHidden ? styles.none: ""}`}>
         <ul className={styles.menu}>

@@ -12,8 +12,8 @@ let data ={
 
     //main02//
     titleBox: {
-        title: "Victoria Wool Processors (VWP)",
-        text: "More than 500 projects completed in VWP - With over 25 years of combined experience, we have the knowledge to serve you.",
+        title: "Victoria Wool Processors",
+        text: "More than 20,000 projects completed in VWP - With over 25 years of combined experience, we have the knowledge to serve you.",
     },
     iconBoxes:[
         {
@@ -62,7 +62,7 @@ let data ={
         text:`Established in 1990 by Mr Jim Kim, VWP has continued to evolve and modernise both its overall business of trading wool internationally but more importantly the way we process wool.`,
         p:
         `
-        As the Australian wool industry has lost all but a few remaining wool processing plants, VWP has continued to expand and improve its productivity. Installing the latest technology combined with our ‘own’ internal engineering initiatives owe pride ourselves on both our productivity rates and our optimisation of both power and water which enables us to remain competitive in the textile industry which has largely been relocated overseas in search of cheaper ‘production’ costs.\n
+        As the Australian wool industry has lost all but a few remaining wool processing plants, VWP has continued to expand and improve its productivity. Installing the latest technology combined with our ‘own’ internal engineering initiatives. We pride ourselves on both our productivity rates and our optimisation of both power and water which enables us to remain competitive in the textile industry which has largely been relocated overseas in search of cheaper ‘production’ costs.\n
         In 2002 we relocated to a completely new site constructing a new factory, office and warehouse purpose built to suit our expanding business. Since then modifications have been regularly made ensuring we can continually deliver on our belief that our product is absolute first class, a reputation we have gained and maintained.\n
         Our customers enjoy a friendly yet professional service that always delivers.\n
         `
@@ -95,7 +95,7 @@ let data ={
             VWP also offer a full commission carbonising service tailored to meet the customer’s needs.\n
             Contact us for all your carbonising needs\n
             Email sales@vwp.com.au
-            Phone +61 9369 0499\n
+            Phone +61 3 9369 0499\n
         `,
         projectWhat:{
             title:"What We Do",

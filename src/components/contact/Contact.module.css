@@ -23,28 +23,37 @@
 
 .title{
     font-size: 2rem;
-    margin-top: 30px;
-    margin-left:20px;
+    /* margin-top: 30px; */
+    /* margin-left:20px; */
     
 }
 .companyName{
     font-size: 1.4rem;
     font-weight: 300;
-    margin-left:20px;
+    /* margin-left:20px; */
 
 }
+.detailBigBox{
+
+}
+
+
 .detailBox{
     /* background-color: antiquewhite; */
     /* width: 0%; */
     /* margin:0 auto; */
     /* margin-left: 50px; */
-    margin-top: 60px;
+    margin-top: 40px;
 
     column-count: 2;
     column-gap: 40px;
     /* column-rule: dotted;    */
 }
 
+.detailBox .contactUs{
+    background-color: blue;
+    width: 100%;
+}
 
 
 .detailBox h4{
