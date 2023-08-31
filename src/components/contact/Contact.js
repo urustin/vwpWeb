@@ -22,7 +22,9 @@ const Contact = () => {
             <h5>
             38 – 44 Dohertys Road,
             <br/>
-            Laverton North, VIC. 3026
+            Laverton North,
+            <br/>
+            VIC, Australia 3026
             </h5>
           </div>
           <div className={styles.postBox}>
@@ -33,11 +35,13 @@ const Contact = () => {
             VIC, Australia 3025
             </h5>
           </div>
-          <div className={styles.contactBox}>
-            <h4>Phone</h4>
-            <h5>
-            +61 3 9369 0499
-            </h5>
+          <div className={styles.contactBox2}>
+            <div className={styles.phoneBox}>
+              <h4>Phone</h4>
+              <h5>
+              +61 3 9369 0499
+              </h5>
+            </div>
             <h4>Email</h4>
             <h5>
             sales@vwp.com.au

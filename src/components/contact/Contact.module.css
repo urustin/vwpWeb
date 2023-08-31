@@ -34,19 +34,26 @@
 
 }
 .detailBigBox{
-
+    width: 450px;
 }
 
 
 .detailBox{
-    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 250px;
+    justify-content: baseline;
+    /* align-items: space-between; */
+
     /* width: 0%; */
     /* margin:0 auto; */
     /* margin-left: 50px; */
     margin-top: 40px;
+    /* height: 600px; */
 
-    column-count: 2;
-    column-gap: 40px;
+
+
     /* column-rule: dotted;    */
 }
 
@@ -70,6 +77,12 @@
     font-size: 1rem;
     font-weight: 300;
 }
+
+.phoneBox h4{
+    /* width: 200px; */
+    margin-top: 0px;
+}
+
 @media screen and (max-width: 768px) {
     .contact {
         display: block;
@@ -78,13 +91,19 @@
         width: 100%;
         height: auto;
     }
+    .detailBigBox{
+        width: auto;
+    }
     .detailBox{
-        column-count: 1;
+        display: block;
+        height: auto;
         width: 85%;
-        margin: 0 auto;
+
         margin-top:50px;
         /* background-color: aqua; */
-        
+    }
+    .phoneBox h4{
+        margin-top: 40px;
     }
   }
   
