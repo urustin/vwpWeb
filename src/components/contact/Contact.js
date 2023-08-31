@@ -30,7 +30,7 @@ const Contact = () => {
           <div className={styles.postBox}>
             <h4>Post</h4>
             <h5>
-            P.O Box 430 Altona North
+            P.O Box 430 Altona North,
             <br/>
             VIC, Australia 3025
             </h5>
