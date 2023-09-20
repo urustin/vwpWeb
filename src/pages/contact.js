@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Head from 'next/head';
 import Header from '../components/Header';
 import Contact from '../components/contact/Contact';
 import Location from '../components/location/Location';
@@ -14,6 +15,9 @@ const ContactPage = () => {
 
   return (
     <div>
+      <Head>
+        <title>Contact | Victoria Wool Processors</title>
+      </Head>
       <Header />
       <Contact />
       <Location />

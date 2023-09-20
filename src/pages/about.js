@@ -16,7 +16,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About | Your Company Name</title>
+        <title>About | Victoria Wool Processors</title>
       </Head>
       <Header />
       <AboutWhat />

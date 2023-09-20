@@ -19,7 +19,7 @@ const MainPage = () => {
   return (
     <>
       <Head>
-        <title>메인 페이지</title>
+        <title>VWP | Victoria Wool Processors</title>
       </Head>
       <Header />
       
