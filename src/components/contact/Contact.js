@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Contact.module.css'; // Sass 파일 경로
-
+import Link from 'next/link';
 const Contact = () => {
 
 
@@ -44,7 +44,9 @@ const Contact = () => {
             </div>
             <h4>Email</h4>
             <h5>
-            sales@vwp.com.au
+            <Link href="mailto:sales@vwp.com.au">
+                sales@vwp.com.au
+            </Link>
             </h5>
           </div>
           {/* <div className={styles.headBox}>
