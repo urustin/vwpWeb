@@ -51,28 +51,60 @@ const Slider = () => {
       
       
       <Carousel.Item>
-        <img
+          <img
           style={imageStyle}
           className="d-block w-100"
-          src="/images/slide1.jpg"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          style={imageStyle}
-          className="d-block w-100"
-          src="/images/slide2.jpg"
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          style={imageStyle}
-          className="d-block w-100"
-          src="/images/slide3.jpg"
+          src="/images/fin_image/home01.jpg"
           alt="Third slide"
-        />
+          />
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/fin_image/home02.jpg"
+          alt="Third slide"
+          />
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/fin_image/home03.jpg"
+          alt="Third slide"
+          />
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/fin_image/home04.jpg"
+          alt="Third slide"
+          />
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/fin_image/home05.jpg"
+          alt="Third slide"
+          />
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/fin_image/home06.jpg"
+          alt="Third slide"
+          />
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          style={imageStyle}
+          className="d-block w-100"
+          src="/images/fin_image/home07.jpg"
+          alt="Third slide"
+          />
       </Carousel.Item>
     </Carousel>
     </>

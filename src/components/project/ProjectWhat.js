@@ -31,7 +31,7 @@ const ProjectWhat = ()=>{
                             <img
                             style={imageStyle}
                             className="d-block w-100"
-                            src="/images/slide1.jpg"
+                            src="/images/fin_image/whatwedo01.jpg"
                             alt="First slide"
                             />
                         </Carousel.Item>
@@ -39,7 +39,7 @@ const ProjectWhat = ()=>{
                             <img
                             style={imageStyle}
                             className="d-block w-100"
-                            src="/images/slide2.jpg"
+                            src="/images/fin_image/whatwedo02.jpg"
                             alt="Second slide"
                             />
                         </Carousel.Item>
@@ -47,7 +47,23 @@ const ProjectWhat = ()=>{
                             <img
                             style={imageStyle}
                             className="d-block w-100"
-                            src="/images/slide3.jpg"
+                            src="/images/fin_image/whatwedo03.jpg"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            style={imageStyle}
+                            className="d-block w-100"
+                            src="/images/fin_image/whatwedo05.jpg"
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            style={imageStyle}
+                            className="d-block w-100"
+                            src="/images/fin_image/whatwedo06.jpg"
                             alt="Third slide"
                             />
                         </Carousel.Item>

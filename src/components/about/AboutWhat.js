@@ -35,7 +35,7 @@ const AboutWhat = ()=>{
                         <img
                         style={imageStyle}
                         className="d-block w-100"
-                        src="/images/companyInfo/image01.jpg"
+                        src="/images/fin_image/aboutus01.jpg"
                         alt="First slide"
                         />
                     </Carousel.Item>
@@ -43,7 +43,7 @@ const AboutWhat = ()=>{
                         <img
                         style={imageStyle}
                         className="d-block w-100"
-                        src="/images/companyInfo/image02.jpg"
+                        src="/images/fin_image/aboutus02.jpg"
                         alt="Second slide"
                         />
                     </Carousel.Item>
@@ -51,7 +51,31 @@ const AboutWhat = ()=>{
                         <img
                         style={imageStyle}
                         className="d-block w-100"
-                        src="/images/companyInfo/image03.jpg"
+                        src="/images/fin_image/aboutus03.jpg"
+                        alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        style={imageStyle}
+                        className="d-block w-100"
+                        src="/images/fin_image/aboutus04.jpg"
+                        alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        style={imageStyle}
+                        className="d-block w-100"
+                        src="/images/fin_image/aboutus05.jpg"
+                        alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        style={imageStyle}
+                        className="d-block w-100"
+                        src="/images/fin_image/aboutus06.jpg"
                         alt="Third slide"
                         />
                     </Carousel.Item>
