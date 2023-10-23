@@ -93,9 +93,7 @@ let data ={
             VWP can supply carbonised wool of all types, lengths and qualities to customers throughout the world. Our expert technicians can work directly with spinners to develop specific types most suited to their needs.\n
             We have buyers throughout the wool growing regions of Australia sourcing the wools most suitable to produce the right product.\n
             VWP also offer a full commission carbonising service tailored to meet the customer’s needs.\n
-            Contact us for all your carbonising needs\n
-            Email sales@vwp.com.au
-            Phone +61 3 9369 0499\n
+            Contact us for all your carbonising needs
         `,
         projectWhat:{
             title:"What We Do",

@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './ProjectPara.module.css';
 import data from '../textData';
-
-
+import Link from 'next/link';
 
 
 const Paragraph = ()=>{
@@ -13,6 +12,7 @@ const Paragraph = ()=>{
                 <React.Fragment key={index}>
                     {part}
                     {<br />}
+                    
                 </React.Fragment>
             );
         }
@@ -22,6 +22,13 @@ const Paragraph = ()=>{
     return (
         <div id='pBox' className={styles.pBox}>
             {textParts}
+
+            <span>Email </span>
+            <Link href="mailto:sales@vwp.com.au">
+                sales@vwp.com.au
+            </Link>
+            <br/>
+            Phone +61 3 9369 0499
         </div>
     )
 }
